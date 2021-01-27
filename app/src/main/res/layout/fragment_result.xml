@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:paddingBottom="10dp">
+
+    <TextView
+        style="@style/TextAppearance.MaterialComponents.Overline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingTop="10dp"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:text="@string/app_name" />
+
+    <TextView
+        android:id="@+id/comprehension_text"
+        style="@style/TextAppearance.MaterialComponents.Headline6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:paddingEnd="10dp"
+        android:paddingStart="10dp"
+        android:paddingBottom="6dp"
+        tools:text="Extremely difficult to read" />
+
+    <TextView
+        android:id="@+id/index_text"
+        style="@style/TextAppearance.MaterialComponents.Body1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:text="@string/index_prefix" />
+
+    <TextView
+        android:id="@+id/sentences_text"
+        style="@style/TextAppearance.MaterialComponents.Body1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:text="@string/sentences_prefix" />
+
+    <TextView
+        android:id="@+id/words_text"
+        style="@style/TextAppearance.MaterialComponents.Body1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:text="@string/words_prefix" />
+
+    <TextView
+        android:id="@+id/characters_text"
+        style="@style/TextAppearance.MaterialComponents.Body1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        tools:text="@string/characters_prefix" />
+</LinearLayout>

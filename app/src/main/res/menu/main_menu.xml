@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/done"
+        android:icon="@drawable/ic_baseline_done_24"
+        android:title="@string/done"
+        app:showAsAction="ifRoom" />
+
+    <group>
+        <item
+            android:id="@+id/clear"
+            android:title="@string/clear_text"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/photo"
+            android:title="@string/text_from_photo"
+            app:showAsAction="never" />
+
+        <item
+            android:id="@+id/camera"
+            android:title="@string/text_from_camera"
+            app:showAsAction="never" />
+    </group>
+
+    <group>
+        <item
+            android:id="@+id/help"
+            android:title="@string/help"
+            app:showAsAction="never" />
+    </group>
+</menu>

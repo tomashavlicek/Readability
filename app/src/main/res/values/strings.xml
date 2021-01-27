@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">Readability</string>
+    <string name="about_description">Redability is an app, that computes the Coleman-Liau index of the text. Its output approximates the U.S. grade level thought necessary to comprehend the text. You can import a text to an app from a photo, camera or by selecting Readability option from a system selection context menu. \n\n This project was done as a final problem for Harvard CS50x class.</string>
+    <string name="about_title">About Readability</string>
+    <string name="content_hint">Enter a text here, then press done to analyze it.</string>
+    <string name="index_prefix">Coleman–Liau index: %1$s</string>
+    <string name="sentences_prefix">Sentences: %1$d</string>
+    <string name="words_prefix">Words: %1$d</string>
+    <string name="characters_prefix">Characters: %1$d</string>
+    <string name="text_recognize_fail">Failed to recognize text.</string>
+
+    <!-- Main menu options -->
+    <string name="done">Done</string>
+    <string name="clear_text">Clear text</string>
+    <string name="text_from_photo">Text from photo</string>
+    <string name="text_from_camera">Text from camera</string>
+    <string name="help">Help</string>
+
+    <!-- Comprehension descriptions -->
+    <string name="extremely_difficult">Extremely difficult to read</string>
+    <string name="difficult">Difficult to read</string>
+    <string name="fairly_difficult">Fairly difficult to read</string>
+    <string name="conversational">Conversational English</string>
+    <string name="fairly_easy">Fairly easy to read</string>
+    <string name="easy">Easy to read</string>
+    <string name="very_easy">Very easy to read</string>
+</resources>
